@@ -4,6 +4,9 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+
 }
 
 html body{
@@ -24,8 +27,9 @@ nav header > *{
 }
 nav header h1{
     max-width: 100%;
-    width: 150px;
-    color: #fbcc23;    
+    width: 250px;
+    color: #fbcc23;   
+    font-family: 'WindSong', cursive; 
 }
 nav header h1 span{
     color: #fff;
@@ -230,13 +234,27 @@ footer p span{
     }
     #midSample{
         height: 350px;
+        margin-top: 200px;
     }
+
+    #midSample h2{
+        width: 250px;
+        text-align: center;
+        padding: 3px 10px;
+    }
+
     #portfolio .portfolioDivs{
         width: 250px;
         height: 420px;
         border: 2px solid #696969;
         background: #fbcc23;
         
+    }
+    #portfolioHeading{
+        color:#fbcc23;
+    }
+    #portfolioHeading::first-letter{
+        color: #696969;
     }
     #flexForm #name, #flexForm #email{
         display: flex;
