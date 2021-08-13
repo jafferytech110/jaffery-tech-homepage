@@ -207,6 +207,16 @@ nav ul li a{
 #textArea textarea{
     flex: 1 1 auto;
 }
+#formButton button{
+    background: #fbcc23;
+    border: none;
+    padding:10px 10px;
+    color: #696969;
+    width: 100px;
+    margin-top: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
 /* end of form */
 
 footer{
