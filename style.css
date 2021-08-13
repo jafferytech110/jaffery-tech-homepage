@@ -58,6 +58,10 @@ nav ul li a{
     font-weight: bold;
 }
 
+nav ul li:hover{
+    font-size: 1.3;
+    box-shadow: 1px 1px 1px 1px #fbcc23;
+}
 /* navigation design ended */
 
 #midSample{
@@ -207,6 +211,7 @@ nav ul li a{
 #textArea textarea{
     flex: 1 1 auto;
 }
+
 #formButton button{
     background: #fbcc23;
     border: none;
