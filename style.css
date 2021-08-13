@@ -91,6 +91,15 @@ nav ul li a{
     font-size: 1.2em;
     font-weight: bold;    
 }
+/* midSample desig ended here */
+
+.line{
+    width: 80%;
+    text-align: center;
+    height: 1px;
+    background: #fbcc23;
+
+}
 @media screen and (max-width:600px) {
     nav{
         display: flex;
