@@ -226,13 +226,23 @@ footer p span{
     nav{
         display: flex;
         flex-direction: column;
+        align-items: center;
+       
     }
+    nav header{
+        margin-bottom: 25px;
+        align-self: flex-start;
+    }
+    nav header h1{
+        
+    }
+   
     nav ul li{
         display: block;
     }
     #midSample{
         height: 350px;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     #midSample h2{
