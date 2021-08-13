@@ -95,11 +95,131 @@ nav ul li a{
 
 .line{
     width: 80%;
-    text-align: center;
+    margin: 100px auto;
     height: 1px;
     background: #fbcc23;
 
 }
+.line1{
+    width: 80%;
+    margin: 100px auto;
+    height: 1px;
+    background: #f5f5f5;
+}
+
+#portfolio{
+    display: flex;
+    margin-top: 100px;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#portfolioHeading{
+    margin: 0;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 3em;
+   
+}
+#portfolioHeading::first-letter{
+    color: #fbcc23;
+}
+
+#portfolio .portfolioDivs{
+    width: 300px;
+    height: 450px;
+    border: 2px solid #696969;
+    background: #fbcc23;
+    
+}
+
+#portfolio .portfolioDivs img{
+    max-width: 100%;
+}
+
+#portfolio .portfolioDivs h2{
+    color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
+
+#portfolio .portfolioDivs p{
+    color: #696969;
+    line-height: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
+
+.portfolioDivs:hover{
+    opacity: 0.8;
+    box-shadow: 4px 4px 4px 4px #696969;
+}
+
+/* end of portfolio design */
+
+#flexForm{
+    display: flex;
+    color: #fbcc23;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+#flexForm h2{
+    margin-bottom: 40px;
+    font-size: 3em;
+    border-bottom: 4px solid #f5f5f5;
+    padding: 5px 10px;
+}
+#flexForm #name, #flexForm #email{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+}
+
+#flexForm input{
+    flex: 1 1 auto;
+    height: 40px;
+    border: none;
+    padding: 10px;
+} 
+
+
+#flexForm label{
+    font-size: 1.3em;
+    border-bottom: 2px solid #fbcc23;
+    color:#f5f5f5;
+    padding: 5px 20px;
+}
+#flexForm #textArea{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textArea textarea{
+    flex: 1 1 auto;
+}
+/* end of form */
+
+footer{
+    display: flex;
+    color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer p span{
+    color: #fbcc23;
+}
+
+
 @media screen and (max-width:600px) {
     nav{
         display: flex;
@@ -110,5 +230,47 @@ nav ul li a{
     }
     #midSample{
         height: 350px;
+    }
+    #portfolio .portfolioDivs{
+        width: 250px;
+        height: 420px;
+        border: 2px solid #696969;
+        background: #fbcc23;
+        
+    }
+    #flexForm #name, #flexForm #email{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+        align-items: center;
+    }
+    
+    #flexForm input{
+        flex: 1 1 auto;
+        height: 40px;
+        border: none;
+        padding: 10px;
+    } 
+    
+    
+    #flexForm label{
+        font-size: 1.3em;
+        border-bottom: 2px solid #fbcc23;
+        color:#f5f5f5;
+        padding: 5px 20px;
+    }
+    #flexForm #textArea{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #textArea textarea{
+        flex: 1 1 auto;
     }
 }
