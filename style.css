@@ -103,6 +103,21 @@ nav ul li:hover{
 }
 /* midSample desig ended here */
 
+.thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    margin-top: 50px;
+}
+
+.thanks h2{
+    background: linear-gradient(to right, #0000, #fbcc23);
+    padding: 10px;
+    border-bottom: 2px solid #f5f5f5;
+
+}
+
 .line{
     width: 80%;
     margin: 100px auto;
